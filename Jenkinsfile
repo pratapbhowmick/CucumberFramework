@@ -2,7 +2,7 @@ pipeline {
     agent any  // Runs on any available Jenkins agent
 
     tools {
-        maven 'Maven_3.8.6'  // Use your configured Maven version in Jenkins
+        maven 'MAVEN_HOME'  // Use your configured Maven version in Jenkins
     }
 
     stages {
