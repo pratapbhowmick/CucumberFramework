@@ -1,5 +1,5 @@
 pipeline {
-    agent Pratap  // Runs on any available Jenkins agent
+    agent any  // Runs on any available Jenkins agent
 
     tools {
         maven 'Maven_3.8.6'  // Use your configured Maven version in Jenkins
